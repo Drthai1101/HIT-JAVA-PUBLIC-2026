@@ -28,6 +28,6 @@ public class ElectronicToy extends Toy{
     public void printInfo() {
         super.printInfo();
         System.out.println("Discount: " + calculateDiscount());
-        System.out.println("Warranty: " + getWarranty());
+        System.out.println("Warranty: " + getWarranty()+ " months");
     }
 }
