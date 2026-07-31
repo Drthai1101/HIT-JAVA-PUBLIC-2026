@@ -5,7 +5,7 @@ public class PlushToy extends Toy{
 
     public PlushToy(String id, String name, double price, int quantity, String material) {
         super(id, name, price, quantity);
-        this.material = material;
+        setMaterial(material);
     }
 
     public String getMaterial() {

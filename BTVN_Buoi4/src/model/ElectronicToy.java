@@ -5,7 +5,7 @@ public class ElectronicToy extends Toy{
 
     public ElectronicToy(String id, String name, double price, int quantity, int warranty) {
         super(id, name, price, quantity);
-        this.warranty = warranty;
+        setWarranty(warranty);
     }
 
     public int getWarranty() {

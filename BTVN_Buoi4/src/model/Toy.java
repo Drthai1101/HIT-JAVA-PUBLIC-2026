@@ -7,10 +7,10 @@ public class Toy {
     private int quantity;
 
     public Toy(String id, String name, double price, int quantity) {
-        this.id = id;
-        this.name = name;
-        this.price = price;
-        this.quantity = quantity;
+        setId(id);
+        setName(name);
+        setPrice(price);
+        setQuantity(quantity);
     }
 
     public void setId(String id) {
