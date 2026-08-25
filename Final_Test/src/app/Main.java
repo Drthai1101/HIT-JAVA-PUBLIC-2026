@@ -19,7 +19,7 @@ public class Main {
         Bicycle xedap2 = new Bicycle("004", honda, "Xedap2", 15000, 7);
 
         Car mercedes1 = new Car("005", mercedesBenz, "mercedesBenz", 5000000, 2, true);
-
+        Car honda2 = new Car("005", honda, "honda2", 4000000, 3, false);
 
     }
 }
